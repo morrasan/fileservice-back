@@ -12,6 +12,7 @@ The simple file service for the store files
 2. docker compose up
 3. open terminal on the `fileservice-app` container and run commands:
     - composer install
+    - .env.example -> .env 
     - php artisan migrate
     - php artisan optimize 
 
